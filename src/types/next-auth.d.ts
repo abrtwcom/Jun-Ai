@@ -14,7 +14,7 @@ declare module 'next-auth' {
       isActive: boolean;
     };
   }
-}
+} 
 
 declare module 'next-auth/jwt' {
   interface JWT {

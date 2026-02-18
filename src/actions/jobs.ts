@@ -22,7 +22,7 @@ export async function getJobs({
     await connectToDatabase();
 
     // Build query based on filters
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any  
     const query: any = { isActive: true };
 
     // Search in title, description and company name
