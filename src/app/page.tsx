@@ -79,15 +79,6 @@ export default function Home() {
     1500,
   ];
 
-  const descriptionSequence = [
-    t('typingAnimation.descriptions.transform'),
-    2000,
-    t('typingAnimation.descriptions.datadriven'),
-    2000,
-    t('typingAnimation.descriptions.streamline'),
-    2000,
-  ];
-
   return (
     <div className="flex min-h-screen flex-col items-center">
       {/* Logo */}

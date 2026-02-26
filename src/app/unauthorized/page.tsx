@@ -1,6 +1,6 @@
 'use client';
 
-import { ExclamationTriangleIcon } from '@radix-ui/react-icons';
+import { AlertTriangle as ExclamationTriangleIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { signOut } from 'next-auth/react';

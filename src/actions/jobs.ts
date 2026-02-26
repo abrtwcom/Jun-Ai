@@ -1,6 +1,6 @@
 'use server';
 
-import { connectToDatabase } from '@/lib/mongodb';
+import connectToDatabase from '@/lib/mongodb';
 import Job from '@/models/job';
 
 export type JobFilter = {

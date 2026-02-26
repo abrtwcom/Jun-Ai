@@ -1,9 +1,8 @@
-import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 
 // This middleware is now simplified since the auth.ts file handles most of the authentication logic
 
-export function middleware(_request: NextRequest) {
+export function middleware() {
   // The middleware is now just a pass-through
   // All authentication logic is handled in the auth.ts file
   return NextResponse.next();
