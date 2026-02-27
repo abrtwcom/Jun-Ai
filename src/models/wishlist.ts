@@ -1,7 +1,6 @@
 import mongoose, { Document, Model, Schema } from 'mongoose';
 
 export interface IWishlist extends Document {
-  _id: string;
   name: string;
   email: string;
   reason?: string;

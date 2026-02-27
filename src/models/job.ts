@@ -3,7 +3,6 @@ import mongoose, { Document, Model, Schema } from 'mongoose';
 import { IUser } from './user';
 
 export interface IJob extends Document {
-  _id: string;
   title: string;
   description: string;
   companyName: string;

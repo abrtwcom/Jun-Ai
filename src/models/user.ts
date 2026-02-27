@@ -4,7 +4,6 @@ import mongoose, { Document, Model, Schema } from 'mongoose';
 export type UserRole = 'admin' | 'recruiter' | 'candidate';
 
 export interface IUser extends Document {
-  _id: string;
   name: string;
   email: string;
   password: string;

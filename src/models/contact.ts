@@ -13,13 +13,11 @@ const contactSchema = new Schema<IContact>(
   {
     name: {
       type: String,
-      required: true,
       required: [true, 'Name is required'],
       trim: true,
     },
     email: {
       type: String,
-      required: true,
       required: [true, 'Email is required'],
       trim: true,
       lowercase: true,
@@ -27,7 +25,6 @@ const contactSchema = new Schema<IContact>(
     },
     message: {
       type: String,
-      required: true,
       required: [true, 'Message is required'],
       trim: true,
     },

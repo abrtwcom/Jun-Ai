@@ -1,5 +1,3 @@
-export type Locale = (typeof locales)[number];
-
 export interface LocalsLanguage {
   code: string;
   name: string;
@@ -33,4 +31,6 @@ export const localsLanguages: LocalsLanguage[] = [
 ];
 
 export const locales = localsLanguages.map((locale) => locale.code);
+export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
+
